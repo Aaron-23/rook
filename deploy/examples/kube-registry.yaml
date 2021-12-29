@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: registry
-        image: registry:2
+        image: registry.cn-hangzhou.aliyuncs.com/goodrain/registry:2
         imagePullPolicy: Always
         resources:
           limits:
